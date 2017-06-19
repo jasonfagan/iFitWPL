@@ -1,1 +1,7 @@
 iFIT WPL
+
+Cross compiling golang files to work on iFit module
+
+export GOOS=linux
+export GOARCH=arm
+export GOARM=5
